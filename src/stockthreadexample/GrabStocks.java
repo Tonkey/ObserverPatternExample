@@ -6,6 +6,11 @@ package stockthreadexample;
  */
 public class GrabStocks {
     
+    /**
+     * This Main is basically running the whole program!.
+     * Initializing Threads, Observers etc.
+     * @param args 
+     */
     public static void main(String[] args) {
         
         StockGrabber sg = new StockGrabber();
